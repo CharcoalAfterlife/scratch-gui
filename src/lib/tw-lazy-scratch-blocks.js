@@ -58,7 +58,7 @@ const load = () => {
                             previousStatement: null,
                             nextStatement: null,
                             colour: '#ff0000',
-                            tooltip: 'your mom :trel:',
+                            tooltip: 'however, your mother.',
                             helpUrl: 'https://tenor.com/view/urmom-your-mom-baldi-defaultdance-gif-19665250'
                         });
                     }

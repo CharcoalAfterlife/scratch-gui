@@ -108,7 +108,7 @@ const BlocksThemeMenu = ({
             <ThemeIcon id={theme.blocks} />
             <span className={styles.submenuLabel}>
                 <FormattedMessage
-                    defaultMessage="Block Colors"
+                    defaultMessage="Themes"
                     description="Label for to choose what color blocks should be, eg. original or high contrast"
                     id="tw.menuBar.blockColors"
                 />

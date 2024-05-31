@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 import check from './check.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import {MenuItem, Submenu} from '../menu/menu.jsx';
-import {ACCENT_BLUE, ACCENT_MAP, ACCENT_PURPLE, ACCENT_RED, ACCENT_TURBO, Theme} from '../../lib/themes/index.js';
+import {ACCENT_BLUE, ACCENT_MAP, ACCENT_PURPLE, ACCENT_RED, ACCENT_TURBO, ACCENT_REDUX, Theme} from '../../lib/themes/index.js';
 import {openAccentMenu, accentMenuOpen, closeSettingsMenu} from '../../reducers/menus.js';
 import {setTheme} from '../../reducers/theme.js';
 import {persistTheme} from '../../lib/themes/themePersistance.js';
@@ -15,7 +15,7 @@ import styles from './settings-menu.css';
 
 const options = defineMessages({
     [ACCENT_RED]: {
-        defaultMessage: 'Green',
+        defaultMessage: 'Acid',
         description: 'Name of the green color scheme, used by AcidMod by default.',
         id: 'tw.accent.red'
     },
@@ -32,7 +32,12 @@ const options = defineMessages({
     [ACCENT_TURBO]: {
         defaultMessage: 'Turbo',
         description: 'Name of the Turbo color scheme. Matches TurboWarps default color scheme.',
-        id: 'tw.accent.turbo'
+        id: 'ac.accent.turbo'
+    }
+    [ACCENT_REDUX]: {
+        defaultMessage: 'Redux',
+        description: 'Name of the Redux color scheme. A fruity and orange scheme I do say so myself.',
+        id: 'ac.accent.redux'
     }
 });
 
@@ -86,7 +91,7 @@ const AccentThemeMenu = ({
             <ColorIcon id={theme.accent} />
             <span className={styles.submenuLabel}>
                 <FormattedMessage
-                    defaultMessage="Themes"
+                    defaultMessage="Accents"
                     description="Label for menu to choose accent color (eg. TurboWarp's red, Scratch's purple)"
                     id="tw.menuBar.accent"
                 />

@@ -32,7 +32,7 @@ const options = defineMessages({
     [ACCENT_TURBO]: {
         defaultMessage: 'Turbo',
         description: 'Name of the Turbo color scheme. Matches TurboWarps default color scheme.',
-        id: 'tw.accent.blue'
+        id: 'tw.accent.turbo'
     }
 });
 

@@ -28,6 +28,11 @@ const options = defineMessages({
         defaultMessage: 'Aqua',
         description: 'Name of the aqua color scheme. Matches Scratch before the high contrast update.',
         id: 'tw.accent.blue'
+    },
+    [ACCENT_TURBO]: {
+        defaultMessage: 'Turbo',
+        description: 'Name of the Turbo color scheme. Matches TurboWarp's default color scheme.',
+        id: 'tw.accent.blue'
     }
 });
 

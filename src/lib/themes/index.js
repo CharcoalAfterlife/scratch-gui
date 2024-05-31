@@ -22,7 +22,7 @@ const ACCENT_MAP = {
     [ACCENT_PURPLE]: accentPurple,
     [ACCENT_BLUE]: accentBlue,
     [ACCENT_RED]: accentRed,
-    [ACCENT_TURBO]: accentTurbo
+    [ACCENT_TURBO]: accentTurbo,
     [ACCENT_REDUX]: accentRedux
 };
 const ACCENT_DEFAULT = ACCENT_RED;

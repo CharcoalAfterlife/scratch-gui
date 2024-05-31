@@ -33,7 +33,7 @@ const options = defineMessages({
         defaultMessage: 'Turbo',
         description: 'Name of the Turbo color scheme. Matches TurboWarps default color scheme.',
         id: 'ac.accent.turbo'
-    }
+    },
     [ACCENT_REDUX]: {
         defaultMessage: 'Redux',
         description: 'Name of the Redux color scheme. A fruity and orange scheme I do say so myself.',

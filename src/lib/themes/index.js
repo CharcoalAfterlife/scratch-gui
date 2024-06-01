@@ -12,6 +12,7 @@ import * as guiDark from './gui/dark';
 import * as blocksThree from './blocks/three';
 import * as blocksHighContrast from './blocks/high-contrast';
 import * as blocksDark from './blocks/dark';
+import * as blocksPride from './blocks/pride';
 
 const ACCENT_PURPLE = 'purple';
 const ACCENT_BLUE = 'blue';
@@ -39,6 +40,7 @@ const BLOCKS_THREE = 'three';
 const BLOCKS_DARK = 'dark';
 const BLOCKS_HIGH_CONTRAST = 'high-contrast';
 const BLOCKS_CUSTOM = 'custom';
+const BLOCKS_PRIDE = 'pride';
 const BLOCKS_DEFAULT = BLOCKS_THREE;
 const defaultBlockColors = blocksThree.blockColors;
 const BLOCKS_MAP = {
@@ -67,6 +69,13 @@ const BLOCKS_MAP = {
         // to be filled by editor-theme3 addon
         blocksMediaFolder: 'blocks-media/default',
         colors: blocksThree.blockColors,
+        extensions: {},
+        customExtensionColors: {},
+        useForStage: false
+    },
+    [BLOCKS_PRIDE]: {
+        blocksMediaFolder: 'blocks-media/default',
+        colors: blocksPride.blockColors,
         extensions: {},
         customExtensionColors: {},
         useForStage: false

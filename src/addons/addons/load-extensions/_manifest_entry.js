@@ -36,7 +36,7 @@ const manifest = {
     },
       {
           "name": "Enable return",
-          "id": "procedures_enable_return"
+          "id": "procedures_enable_return",
             "type": "boolean",
           "default": true
       }

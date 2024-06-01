@@ -34,6 +34,11 @@ const options = defineMessages({
         description: 'Name of the Turbo color scheme. Matches TurboWarps default color scheme.',
         id: 'tw.accent.turbo'
     }
+    [ACCENT_REDUX]: {
+    defaultMessage: 'Redux',
+    description: 'Name of the Redux Color scheme. A fruity orange colour.',
+    id: 'tw.accent.redux'
+    }
 });
 
 const ColorIcon = props => (

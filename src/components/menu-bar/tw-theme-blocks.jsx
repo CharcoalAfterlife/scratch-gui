@@ -50,8 +50,8 @@ const icons = {
     [BLOCKS_THREE]: threeIcon,
     [BLOCKS_HIGH_CONTRAST]: highContrastIcon,
     [BLOCKS_DARK]: darkIcon,
-    [BLOCKS_CUSTOM]: customIcon,
-    [BLOCKS_PRIDE]: threeIcon
+    [BLOCKS_PRIDE]: threeIcon,
+    [BLOCKS_CUSTOM]: customIcon
 };
 
 const ThemeIcon = ({id}) => (

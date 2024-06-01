@@ -162,6 +162,7 @@ export {
     ACCENT_PURPLE,
     ACCENT_BLUE,
     ACCENT_TURBO,
+    ACCENT_REDUX
     ACCENT_MAP,
 
     GUI_LIGHT,

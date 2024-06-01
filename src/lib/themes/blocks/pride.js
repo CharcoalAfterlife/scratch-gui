@@ -12,10 +12,10 @@ const blockColors = {
         quaternary: '#CC5500'
     },
     sounds: {
-        primary: '#880808',
-        secondary: '#8B8000',
-        tertiary: '#880808',
-        quaternary: '#8B8000'
+        primary: '#FDDA0D',
+        secondary: '#DAA520',
+        tertiary: '#FDDA0D',
+        quaternary: '#DAA520'
     },
     control: {
         primary: '#228B22',

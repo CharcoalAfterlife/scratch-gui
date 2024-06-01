@@ -163,7 +163,7 @@ export {
     ACCENT_BLUE,
     ACCENT_TURBO,
     ACCENT_REDUX,
-    ACCENT_MAP
+    ACCENT_MAP,
 
     GUI_LIGHT,
     GUI_DARK,

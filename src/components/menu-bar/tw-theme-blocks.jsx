@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 import check from './check.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import {MenuItem, Submenu} from '../menu/menu.jsx';
-import {BLOCKS_CUSTOM, BLOCKS_DARK, BLOCKS_HIGH_CONTRAST, BLOCKS_THREE, Theme} from '../../lib/themes/index.js';
+import {BLOCKS_CUSTOM, BLOCKS_DARK, BLOCKS_HIGH_CONTRAST, BLOCKS_THREE, BLOCKS_PRIDE, Theme} from '../../lib/themes/index.js';
 import {openBlocksThemeMenu, blocksThemeMenuOpen, closeSettingsMenu} from '../../reducers/menus.js';
 import {setTheme} from '../../reducers/theme.js';
 import {persistTheme} from '../../lib/themes/themePersistance.js';
@@ -34,6 +34,11 @@ const options = defineMessages({
         description: 'Name of the dark block colors',
         id: 'tw.blockColors.dark'
     },
+    [BLOCKS_PRIDE]: {
+        defaultMessage: 'Pride Blocks',
+        description: 'Name of Pride Scratch block colors for Pride Month.',
+        id: 'tw.blockColors.pride'
+    },
     [BLOCKS_CUSTOM]: {
         defaultMessage: 'Customize...',
         description: 'Link in block color list to open addon settings for more customization',
@@ -45,7 +50,8 @@ const icons = {
     [BLOCKS_THREE]: threeIcon,
     [BLOCKS_HIGH_CONTRAST]: highContrastIcon,
     [BLOCKS_DARK]: darkIcon,
-    [BLOCKS_CUSTOM]: customIcon
+    [BLOCKS_CUSTOM]: customIcon,
+    [BLOCKS_PRIDE]: threeIcon
 };
 
 const ThemeIcon = ({id}) => (
@@ -120,7 +126,7 @@ const BlocksThemeMenu = ({
             />
         </div>
         <Submenu place={isRtl ? 'left' : 'right'}>
-            {[BLOCKS_THREE, BLOCKS_HIGH_CONTRAST, BLOCKS_DARK, BLOCKS_CUSTOM].map(i => (
+            {[BLOCKS_THREE, BLOCKS_HIGH_CONTRAST, BLOCKS_DARK, BLOCKS_PRIDE, BLOCKS_CUSTOM].map(i => (
                 <ThemeMenuItem
                     key={i}
                     id={i}

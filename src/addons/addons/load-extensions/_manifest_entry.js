@@ -14,13 +14,13 @@ const manifest = {
       "name": "Music",
       "id": "music",
       "type": "boolean",
-      "default": true
+      "default": false
     },
     {
       "name": "Pen",
       "id": "pen",
       "type": "boolean",
-      "default": true
+      "default": false
     },
     {
       "name": "Text to Speech",
@@ -33,9 +33,16 @@ const manifest = {
       "id": "translate",
       "type": "boolean",
       "default": false
-    }
+    },
+      {
+          "name": "Enable return",
+          "id": "procedures_enable_return"
+            "type": "boolean",
+          "default": true
+      }
   ],
   "dynamicDisable": true,
+    "enabledByDefault": true,
   "tags": []
 };
 export default manifest;

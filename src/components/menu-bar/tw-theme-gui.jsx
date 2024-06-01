@@ -31,13 +31,13 @@ const GuiThemeMenu = ({
             <span className={styles.submenuLabel}>
                 {theme.gui === GUI_DARK ? (
                     <FormattedMessage
-                        defaultMessage="Switch To Light Mode"
+                        defaultMessage="Daytime"
                         description="Menu item to change color scheme to light (it is currently dark)"
                         id="tw.darkMode"
                     />
                 ) : (
                     <FormattedMessage
-                        defaultMessage="Switch To Dark Mode"
+                        defaultMessage="Nighttime"
                         description="Menu item to change color scheme to dark (it is currently light)"
                         id="tw.lightMode"
                     />

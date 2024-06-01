@@ -20,22 +20,22 @@ import openLinkIcon from './tw-open-link.svg';
 
 const options = defineMessages({
     [BLOCKS_THREE]: {
-        defaultMessage: 'Original',
+        defaultMessage: 'Light Blocks',
         description: 'Name of normal Scratch block colors.',
         id: 'tw.blockColors.three'
     },
     [BLOCKS_HIGH_CONTRAST]: {
-        defaultMessage: 'High Contrast',
+        defaultMessage: 'High Contrast Blocks',
         description: 'Name of the high contrast block colors.',
         id: 'tw.blockColors.highContrast'
     },
     [BLOCKS_DARK]: {
-        defaultMessage: 'Dark (Beta)',
+        defaultMessage: 'Dark Blocks',
         description: 'Name of the dark block colors',
         id: 'tw.blockColors.dark'
     },
     [BLOCKS_CUSTOM]: {
-        defaultMessage: 'Customize in Addon Settings',
+        defaultMessage: 'Customize...',
         description: 'Link in block color list to open addon settings for more customization',
         id: 'tw.blockColors.custom'
     }
@@ -108,7 +108,7 @@ const BlocksThemeMenu = ({
             <ThemeIcon id={theme.blocks} />
             <span className={styles.submenuLabel}>
                 <FormattedMessage
-                    defaultMessage="Themes"
+                    defaultMessage="Block Customization"
                     description="Label for to choose what color blocks should be, eg. original or high contrast"
                     id="tw.menuBar.blockColors"
                 />
